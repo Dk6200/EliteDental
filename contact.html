@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Global.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo"></div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        <div class="hamburger-menu">&#9776;</div>
+      </nav>
+    </header>
+    <!-- Contact-->
+    <div class="contact-container">
+      <h1>Contact Us</h1>
+      <div class="contact-content">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+      <div class="map-container">
+        <h2>Our Location</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.2566930478964!2d77.69741921482826!3d12.955934390873529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13f4b8d9e7e1%3A0xf2e2e1ffb9ed979!2sMarathahalli%2C%20Bengaluru%2C%20Karnataka%20560037!5e0!3m2!1sen!2sin!4v1692093505807!5m2!1sen!2sin"
+          width="100%"
+          height="500"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <!-- Footer-->
+    <footer>
+      <div class="footer-section">
+        <h3>Contact Information</h3>
+        <p># Sri Sai Nilyam, Marathalli, Bengalore,Karnataka, 560037</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <p>Social Media Links</p>
+        <div class="social-icons">
+          <a href="#" target="_blank">
+            <img src="./images/fb.jpg" alt="Facebook" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="./images/twitter.png" alt="Twitter" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="./images/insta.png" alt="Instagram" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="./images/youtube.png" alt="Youtube" />
+          </a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
